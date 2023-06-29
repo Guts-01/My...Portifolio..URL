@@ -1,0 +1,107 @@
+main{
+    height: 500vh;
+    width: 100%;
+}
+.boxOne{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.myPerfil{
+    width: 60em;
+    padding: 100px;
+}
+.myPerfil h1{
+    font-size: 50px;
+    font-family: var( --fonteDosTitulos);
+    margin-bottom: 20px;
+}
+.myPerfil p{
+    font-size: 17px;
+    font-family: var(--fonteDosParagrafos);
+    gap: 2px;
+    margin-bottom: 80px;
+    color: rgba(255, 255, 255, 0.477);
+}
+.myPerfil a{
+    text-decoration: none;
+    color: var(--corDasLetras);
+    background-color: var(--corSecundaria);
+    padding: 15px;
+    border-radius: 10px;
+}
+.myPerfil a:hover{
+    text-decoration: none;
+    color: var(--corDasLetras);
+    background-color: var(--corQuartearia);
+    padding: 15px;
+    border-radius: 10px;
+}
+.myIcon{
+    width: 30em;
+    padding: 100px;
+}
+.myIcon img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+.boxTwo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tittle{
+    gap: 10px;
+    height: 90px;
+    padding: 100px;
+}
+.tittle h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: var( --fonteDosTitulos);
+}
+.tittle p{
+    width: 480px;
+    font-size: 40px;
+    font-family: var(--fonteDosParagrafos);
+    color: var(--corQuartearia);
+    padding-bottom: 15px;
+    border-bottom: 1px dashed var(--corQuartearia);
+}
+.skills{
+    gap: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.skills div{
+    width: 130px;
+    text-align: center;
+    height: 130px;
+    margin: auto;
+    transition: 0.6s;
+}
+
+.experienc{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.experienc:hover{
+    width: 140px;
+    text-align: center;
+    filter:brightness(100px);
+    transition: 0.6s;
+}
+.boxTree{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

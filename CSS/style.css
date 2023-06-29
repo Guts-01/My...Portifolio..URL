@@ -1,0 +1,20 @@
+:root{
+    --corPrimaria: #000016;
+    --corTercearia:#2d2942;
+    --corSecundaria: #8b0000;
+    --corQuartearia:#e03c37;
+    --corDasLetras: #f4eeee;
+    --fonteDosTitulos: arial;
+    --fonteDosParagrafos: Monaco;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--corPrimaria);
+    color:var(--corDasLetras) ;
+}
+html{
+    scroll-behavior: smooth;
+}
