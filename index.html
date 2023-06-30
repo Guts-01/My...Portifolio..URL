@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/modal.css">
 </head>
 <body>
         
@@ -20,9 +21,9 @@
                    </ol>
 
                 <ul>
-                    <li><a href="#boxTwo">Habilidades</a></li>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Contato</a></li>
+                   <li><a href="#boxOne">Sobre mim</a></li>
+                   <li><a href="#boxTwo">Habilidades</a></li>
+                    <li><a href="#boxTree">Contato</a></li>
                     <li><a href="#">Projetos</a></li>
               
                 </ul>
@@ -33,7 +34,7 @@
     </header>
     <main>
 
-        <section class="boxOne">
+        <section class="boxOne" id="boxOne">
 
                 <div class="myPerfil">
                     <h1>Developer</h1>
@@ -41,7 +42,22 @@
                         Sou desenvolvedor Front-end.  <br>
                         Tenho conhecimento em HTML5, CSS3,  Javascript, Node.js, React e jquery.  
                     </p>
-                    <a href="#">Meu perfil</a>
+                    <a href="#" id="openModal">Ver tudo</a>
+
+                    <div id="myModal" class="modal">
+                     <div class="modal-content">
+                       <span class="close">&times;</span>
+                       <h2 style="margin-bottom: 10px;">Quem sou?</h2>
+                       <p>Me chamo Guto, tenho 20 anos e Atualmente moro  em São paulo - SP.
+                         Sou uma pessoa bem tranquila e com uma boa paz de espirito.
+                     Gosto bastante de Ler, Escutar musica, Estudar e Praticar Exercicios e Esportes, Tais como basquete e futebol.
+                     Profissionalmente falando, pretendo está em uma otima empresa de excelente qualidade futuramente, Atuando no setor tecnológico.
+                     sou um Desenvolvedor Front-end em ascenção, comecei a me interessar pela área tecnológica em meados 2022, quando tive meu primeiro contato com programação.
+                     Em março de 2023 eu tive a oportunidade de fazer gratuitamente o curso de desenvolvimento web no IOS - instituto da Oportunidade Social.
+                        </p>
+                     </div>
+                   </div>
+
                 </div>
 
                 <div class="myIcon">
@@ -50,9 +66,9 @@
 
         </section>
 
-        <section class="boxTwo">
+        <section class="boxTwo"  id="boxTwo">
 
-          <div class="tittle"  id="boxTwo">
+          <div class="tittle">
 
            <h1>Habilidades</h1>
             <p>Conhecimentos e Experiencia</p>
@@ -92,7 +108,7 @@
              <div class="experienc">
 
                 <article><img src="IMAGENS/css-3.png" alt="" width="100%"></article>
-                <article>Css</article>
+                <article>CSS</article>
 
              </div>  
 
@@ -108,10 +124,42 @@
 
         </section>
 
-        <section class="boxTree">
+        <section class="boxTree" id="boxTree">
+
+         <div class="tittle">
+
+            <h1>Contato</h1>
+             <p>Onde me encontrar?</p>
+ 
+           </div>
+
+           <div class="Conteiner">
+
+              <div class="containerOne">
+      
+                  <div class="ImgPerfil">
+                    <h4 style="padding: 20px;">Guto</h4>
+                  </div>
+      
+                  <div class="info">
+      
+                        <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img src="IMAGENS/mala-de-viagem.png" alt="">Desenvolvedor Front-end</div>
+                        <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img src="IMAGENS/telefone.png" alt="">+55 11 91585-8636</div>
+                        <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img src="IMAGENS/o-email.png" alt="">oliveriraguto4@gmail.com</div>
+                        <div style="display: flex; flex-direction: row;gap: 10px;"><img src="IMAGENS/mapas-e-bandeiras.png" alt="">São paulo, Sp</div>
+                     
+                  </div>
+              </div>
+      
+              <div class="containerTwo">
+      
+              </div>
+
+           </div>
+
 
         </section>
     </main>
-
+ <script src="JAVASCRIPT/script.js"></script>
 </body>
 </html>
