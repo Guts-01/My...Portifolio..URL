@@ -57,6 +57,23 @@
     .skills div{
         width: 100px !important;
     }
+
+    .boxTree{
+        flex-direction: column !important;
+    }
+    .Conteiner{
+        flex-direction: column !important;
+    }
+    .containerOne{
+        margin: auto;
+    }
+    .containerTwo{
+        width: 300px !important;
+        margin: auto;
+    }
+    .containerTwo p{
+        margin: auto;
+    }
 }
 
 /* miniPhone responsive */

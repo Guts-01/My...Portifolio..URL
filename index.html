@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/modal.css">
+    <link rel="stylesheet" href="CSS/formSend.css">
 </head>
 <body>
         
@@ -40,9 +41,9 @@
                     <h1>Developer</h1>
                     <p>Me chamo Guto, tenho 20 anos. <br>
                         Sou desenvolvedor Front-end.  <br>
-                        Tenho conhecimento em HTML5, CSS3,  Javascript, Node.js, React e jquery.  
+                        Tenho conhecimento em HTML5, CSS3,  Javascript, Node.js, React e Bootstrap.  
                     </p>
-                    <a href="#" id="openModal">Ver tudo</a>
+                    <a href="#" id="openModal">Sobre mim</a>
 
                     <div id="myModal" class="modal">
                      <div class="modal-content">
@@ -152,7 +153,69 @@
               </div>
       
               <div class="containerTwo">
-      
+
+                  <h1>Entre em contato!!! </h1>
+                  <p>Deixe aqui sua mensagem e sugestão, ou entre em contato diretamente comigo</p>
+                  
+                  <form action="" id="Form">
+                     <label for="nome">Nome <i id="marcationnome">Preencha este campo*</i></label>
+                     <input type="text" id="name" placeholder="Digite seu Nome">
+                  
+                     <label for="email">E-mail <i id="marcationemail">Preencha este campo*</i></label>
+                     <input type="email" id="email" placeholder="Digite seu E-mail">
+                  
+                     <label for="">Mensagem <i id="marcationmensagem">Preencha este campo*</i></label>
+                     <textarea name="" id="mgsSend" cols="30" rows="5" placeholder="Deixe aqui sua mensagem" ></textarea>
+                  
+                     <div class="btnFormSend">
+                        <input type="button" value="Contatos" onclick="CONTACT()">
+                        <input type="button" value="Enviar" onclick="SEND_OF_MSG()">
+                     </div>
+                  </form>
+
+                  <div class="SendFeeback" id="SendFeeback">
+                     <button onclick="SEND_OF_MSG_back()">Enviar outra mensagem                     
+                     </button>
+                      <img src="IMAGENS/feedback-do-cliente.png" alt="">
+                      <div class="loader">
+                        <div class="scanner">
+                          <span>Enviado_com_sucesso</span>
+                        </div>
+                      </div>
+                  </div> 
+
+                  <div class="infomation" id="infomation">
+                      
+                        <h3>Informações</h3>
+
+                         <div style="display: flex; flex-direction: column;margin-top: 10px;">
+
+                           <p>Whatsapp: <strong style="color: rgb(10, 217, 10);">+55 (11) 91585-8636</strong></p>
+                           <p>Github: <strong style="color: rgb(255, 255, 255);"> Guts-01</strong></p>
+                           <p>Linkedin:<strong style="color: rgb(0, 102, 255);"> Guto Oliveira</strong></p>
+                           <p>Email: <strong style="color: rgb(180, 214, 9);"> oliveriraguto4@gmail.com</strong></p>
+                           <p>Instagram: <strong style="color: rgb(217, 10, 203);"> @gu_noob17</strong></p>
+                           <p>Telefone: <strong style="color: rgb(7, 255, 201);"> 11 91585-8636</strong></p>
+                           
+                           
+                        </div>
+                        <button onclick="CONTACT_back()">Voltar</button>
+
+                        <!-- <div class="spinnerContainer">
+                           <div class="spinner"></div>
+                           <div class="loader">
+                             <p>Saiba sobre:</p>
+                             <div class="words">
+                               <span class="word"><a href="">eu</a></span>
+                               <span class="word">images</span>
+                               <span class="word">followers</span>
+                               <span class="word">hashtags</span>
+                               <span class="word"><a href="">eu</a></span>
+                             </div>
+                           </div>
+                         </div> -->
+                  </div>
+               
               </div>
 
            </div>

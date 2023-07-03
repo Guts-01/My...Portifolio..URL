@@ -12,11 +12,11 @@
   
   .modal-content {
     background-color:var(--corTercearia);
-    margin: 8% auto;
     padding: 20px;
-    border: 1px solid var(--corQuartearia);
-    width: 400px;
-    height: 300px;
+    width: 50vh;
+    margin-top: 11vh;
+    height: 80vh;
+    display: block;
   }
   
   .close {
