@@ -6,7 +6,7 @@
   }
   
   .scanner span::before {
-    content: "Enviado_com_sucesso";
+    content: "Obrigado!!!";
     position: absolute;
     top: 0;
     left: 0;

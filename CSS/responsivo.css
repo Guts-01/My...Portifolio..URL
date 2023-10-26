@@ -19,7 +19,7 @@
         padding: 20px;
     }
     .myPerfil{
-        margin-top: 50%;
+        margin-top: 60%;
         width: 100% !important;
         padding: 0px !important;
         justify-content: center;
@@ -45,7 +45,7 @@
     }
     .tittle{
         padding: 0px !important;
-        margin: 90px 60px;
+        margin: 50% 60px 30%;
     }
     .skills{
         gap: 30px !important;
@@ -73,6 +73,11 @@
     }
     .containerTwo p{
         margin: auto;
+    }
+   
+    .modal-content{
+        height: 100vh !important;
+        padding-top: 50px !important;
     }
 }
 

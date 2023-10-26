@@ -1,9 +1,9 @@
 :root{
-    --corPrimaria: #000016;
-    --corTercearia:#2d2942;
-    --corSecundaria: #8b0000;
-    --corQuartearia:#e03c37;
-    --corDasLetras: #f4eeee;
+    --corPrimaria: #000000;
+    --corTercearia:#595959;
+    --corSecundaria: #252525;
+    --corQuartearia:#f90800;
+    --corDasLetras: #ffffff;
     --fonteDosTitulos: arial;
     --fonteDosParagrafos: Monaco;
 }

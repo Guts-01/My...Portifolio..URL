@@ -1,7 +1,4 @@
-main{
-    width: 100%;
-    height: 4000vh;
-}
+
 .boxOne{
     padding-top: 50px;
     height: 90vh;
@@ -31,6 +28,7 @@ main{
     background-color: var(--corSecundaria);
     padding: 15px;
     border-radius: 10px;
+    transition: 0.7s;
 }
 .myPerfil a:hover{
     text-decoration: none;
@@ -49,7 +47,7 @@ main{
     height: 300px;
 }
 .boxTwo{
-       width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -105,7 +103,6 @@ main{
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 20vh;
 }
 .Conteiner{
     width: 100%;
@@ -143,7 +140,7 @@ main{
     text-align: center;
 }
 .ImgPerfil{
-    background-image: url(../IMAGENS/eu.jpg);
+    background-image: url(../IMAGENS/IMG_20230916_014924_671.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,6 +155,7 @@ main{
     height: 102%;
     display: block;
     overflow: hidden;
+    transition: 0.7s;
 }
 .info{
     padding: 20px;
@@ -177,12 +175,12 @@ input[type="email"]{
    padding: 8px;
    margin-bottom: 16px;
    margin-top: 6px;
-   background-color: var(--corTercearia);
+   background-color: var(--corSecundaria);
    border: none;
    font-family: arial;
 }
 form textarea{
-    background-color: var(--corTercearia);
+    background-color: var(--corSecundaria);
     border: none;
     color: #fff;
     font-family: arial;
@@ -218,6 +216,7 @@ input[type="submit"],input[type= "button"] {
    border: none;
    border-radius: 4px;
    cursor: pointer;
+   transition: 0.7s;
 }
 
 input[type="submit"],input[type= "button"]:hover {
@@ -237,19 +236,21 @@ input[type="submit"],input[type= "button"]:hover {
 }
 .SendFeeback button{
     margin-top: 20px;
-    background: none;
+    background: var(--corSecundaria);
+    padding: 10px;
     color: #fff;
     align-items: center;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 1s;
     font-size: 15px;
 }
 .SendFeeback button:hover{
-    color: #ff0000;
+    color: #ffffff;
+    background-color: var(--corQuartearia);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .infomation{
@@ -288,5 +289,21 @@ input[type="submit"],input[type= "button"]:hover {
 }
 .infomation button:hover{
     background-color: var(--corQuartearia);
+    transition: 0.7s;
   
+}
+.boxFor{
+    width: 100%;
+}
+.projeto{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projeto img{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid white;
 }
