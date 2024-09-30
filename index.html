@@ -1,254 +1,445 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guto Oliveira</title>
-    <link rel="stylesheet" href="CSS/responsivo.css">
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/modal.css">
-    <link rel="stylesheet" href="CSS/formSend.css">
-    <link rel="stylesheet" href="CSS/footer.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Guto Oliveira</title>
+   <link rel="shortcut icon" href="resource/data/imagens/favicon_do_site.png" type="image/x-icon">
+   <link rel="stylesheet" href="resource/screens/css/config.css">
+   <link rel="stylesheet" href="resource/screens/css/responsive.css">
+   <link rel="stylesheet" href="resource/screens/css/home/footer/footer.css">
+   <link rel="stylesheet" href="resource/screens/css/home/header/header.css">
+   <link rel="stylesheet" href="resource/screens/css/home/main/main.css">
+   <link rel="stylesheet" href="resource/screens/css/home/main/formSend.css">
+   <link rel="stylesheet" href="resource/screens/css/home/main/modal.css">
 </head>
+
 <body>
-        
-    <header>
 
-                   <ol>
-                        <li><a href="https://wa.me/5511915858636?text=Olá%20Guto.."><img src="IMAGENS/whatsapp.png" alt="whatsapp" width="20px"></a></li>
-                        <li><a href="https://github.com/Guts-01"><img src="IMAGENS/github.png" alt="github" width="20px"></a></li>
-                        <li><a href="https://www.linkedin.com/in/guto-oliveira-227580294/"><img src="IMAGENS/linkedin.png" alt="linkedin" width="20px"></a></li>
-                   </ol>
+   <header>
 
-                <ul>
-                   <li><a href="#boxOne">Sobre mim</a></li>
-                   <li><a href="#boxTwo">Habilidades</a></li>
-                    <li><a href="#boxTree">Contato</a></li>
-                    <li><a href="#boxFor">Projetos</a></li>
-              
-                </ul>
+      <ol class="imagens_social_media">
+         <li><a href="https://wa.me/5511915858636?text=Olá%20Guto.."><img src="resource/data/imagens/whatsapp.png"
+                  alt="whatsapp"></a></li>
+         <li><a href="https://github.com/Guts-01"><img src="resource/data/imagens/github.png" alt="github"></a></li>
+         <li><a href="https://www.linkedin.com/in/guto-oliveira-227580294/"><img
+                  src="resource/data/imagens/linkedin.png" alt="linkedin"></a></li>
+      </ol>
 
-                <button class="hamburguer">
-                        <img src="IMAGENS/menu.png" alt="" width="24px">
-                </button>
-    </header>
-    <main>
+      <ul>
+         <li><a href="#boxOne">Sobre mim</a></li>
+         <li><a href="#boxTwo">Habilidades</a></li>
+         <li><a href="#boxTree">Contato</a></li>
+         <li><a href="#boxFor">Projetos</a></li>
 
-        <section class="boxOne" id="boxOne">
+      </ul>
 
-                <div class="myPerfil">
-                    <h1>Developer</h1>
-                    <p>Me chamo Guto, tenho 20 anos. <br>
-                        Sou Desenvolvedor de software, System analyst e programador.  <br>
-                        Tenho conhecimento em Java, Javascript, Node.js, Poo e React.  <br>
-                        Atualmente estou cursando Analise e desenvolvimento de sistemas.
-                    </p>
-                    <a href="#" id="openModal">Saiba mais...</a>
+      <button class="hamburguer">
+         <img src="resource/data/imagens/menu.png" alt="menu para acessar abas">
+      </button>
 
-                    <div id="myModal" class="modal">
-                     <div class="modal-content">
-                       <span class="close">&times;</span>
-                       <h2 style="margin-bottom: 10px;">Quem sou?</h2>
-                       <p>Me chamo Guto, tenho 20 anos e Atualmente moro  em São paulo - SP.
-                         Sou uma pessoa bem tranquila e com uma boa paz de espirito.
-                     Gosto bastante de Ler, Escutar musica, Estudar e Praticar Exercicios e Esportes, Tais como basquete e futebol.
-                     Atualmente estou estagiando na TOTVS, a maior empresa de tecnologia do brasil.
-                     Fiz parte do programa Devups, onde a empresa iria custear um ano de faculdade gratuito.
-                     Em março de 2023 eu tive a oportunidade de fazer gratuitamente o curso de desenvolvimento web no IOS - instituto da Oportunidade Social, e foi através disso que fiz parte do Devups, Dentre 10 jovens em todo o brasil que foram escolhidos. 
-                        </p>
-                     </div>
-                   </div>
+   </header>
 
-                </div>
+   <main>
 
-                <div class="myIcon">
-                    <img src="IMAGENS/eu.jpg" alt="Guto">
-                </div>
+      <section class="boxOne" id="boxOne">
 
-        </section>
+         <div class="myPerfil">
+            <h1>Developer</h1>
+            <p>Olá, me chamo Guto, tenho 21 anos e<br>
+               Sou Desenvolvedor full-stack, QA, e estudo sobre a area de cibersegurança <br>
+               Tenho conhecimento em tecnologias como: Java, Javascript, Python, Robotframework, React, Flask, Bando de
+               dados e APIs.
+               Atualmente estou cursando Analise e desenvolvimento de sistemas pela descomplica, e trabalho com
+               automação de testes na <a href="https://www.totvs.com/" class="totvs_link">Totvs</a>.
+            </p>
+            <a href="#" id="openModal" class="saiba_mais_btn">Saiba mais...</a>
 
-        <section class="boxTwo"  id="boxTwo">
+            <div id="myModal" class="modal">
+               <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <h2>Quem sou?</h2>
+                  <p>Me chamo Guto, tenho 21 anos e Atualmente moro em São paulo - SP.
+                     Sou uma pessoa bem tranquila e com uma boa paz de espirito.
+                     Gosto bastante Escutar musica, Estudar e Praticar Exercicios e Esportes, Tais como basquete
+                     e futebol.
+                     Atualmente estou trabalhando na TOTVS, onde faço parte do time de automação de testes.
+                     Em março de 2023 eu tive a oportunidade de fazer gratuitamente o curso de desenvolvimento web no
+                     IOS - instituto da Oportunidade Social, e foi através disso que fiz parte do Devups, Dentre 10
+                     jovens em todo o brasil que foram escolhidos.
+                     Faço Analise e desenvolvimento de sistemas na descomplica, e estou no 2º semestre.
+                  </p>
+               </div>
+            </div>
 
-          <div class="tittle">
+         </div>
 
-           <h1>Habilidades</h1>
+         <div class="myIcon">
+            <img src="resource/data/imagens/eu.jpg" alt="Guto">
+         </div>
+
+      </section>
+
+      <section class="boxTwo" id="boxTwo">
+
+         <div class="tittle">
+
+            <h1>Habilidades</h1>
             <p>Conhecimentos e Experiencia</p>
 
-          </div>
+         </div>
 
-          <div class="skills">
-                
-             <div class="experienc">
+         <div class="skills">
 
-                <article><img src="IMAGENS/js.png" alt="" width="100%"></article>
-                <article>Javascript</article> 
+            <div class="experienc">
+               <div class="experienc_card-container">
 
-             </div>  
 
-             <div class="experienc">
+                  <div class="experienc_card">
+                     <div class="experienc_card-face experienc_card-front">
+                        <article><img src="resource/data/imagens/armazenamento-de-banco-de-dados.png" alt=""></article>
+                        <p>Back-End</p>
+                     </div>
+                     <div class="experienc_card-face experienc_card-back">
+                        <p>Conhecimento em validações de BD e Desenvolvimento</p>
+                        <hr>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/postgre.png" alt="">
+                           <p>Postgres SQL</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/servidor-sql.png" alt="">
+                           <p>SQL Server</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/java.png" alt="">
+                           <p>Spring boot</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-                <article><img src="IMAGENS/react.png" alt="" width="100%"></article>
-                <article>React</article>
+            <div class="experienc">
 
-             </div>  
+               <div class="experienc_card-container">
+                  <div class="experienc_card">
+                     <div class="experienc_card-face experienc_card-front">
+                        <article><img src="resource/data/imagens/desenvolvimento-web.png" alt=""></article>
+                        <p>Front-End</p>
+                     </div>
+                     <div class="experienc_card-face experienc_card-back">
+                        <p>Desenvolvimento de interfaces de usuário</p>
+                        <hr>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/css-3.png" alt="">
+                           <p>CSS</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/html-5.png" alt="">
+                           <p>HTML</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/js.png" alt="">
+                           <p>Javascript</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-             <div class="experienc">
+            <div class="experienc">
 
-                <article><img src="IMAGENS/nodejs.png" alt="" width="110%"></article>
-                <article>Node.js</article>
+               <div class="experienc_card-container">
+                  <div class="experienc_card">
+                     <div class="experienc_card-face experienc_card-front">
+                        <article><img src="resource/data/imagens/controle-de-qualidade.png" alt=""></article>
+                        <p>Qualidade</p>
+                     </div>
+                     <div class="experienc_card-face experienc_card-back">
+                        <p>Conhecimento em testes de software e automação</p>
+                        <hr>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/robo.png" alt="">
+                           <p>Robotframework</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/teste-de-software.png" alt="">
+                           <p>Teste de software</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/erro.png" alt="">
+                           <p>Captura de bug</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-             </div>  
+            <div class="experienc">
 
-             <div class="experienc">
+               <div class="experienc_card-container">
+                  <div class="experienc_card">
+                     <div class="experienc_card-face experienc_card-front">
+                        <article><img src="resource/data/imagens/api.png" alt=""></article>
+                        <p>APIs</p>
+                     </div>
+                     <div class="experienc_card-face experienc_card-back">
+                        <p>Conhecimentos básicos sobre APIs</p>
+                        <hr>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/requisicao_api.png" alt="">
+                           <p>Requisições</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/programacao_api.png" alt="">
+                           <p>validações</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-                <article><img src="IMAGENS/java.png" alt="" width="100%"></article>
-                <article>Java</article>
+            <div class="experienc">
 
-             </div>  
+               <div class="experienc_card-container">
+                  <div class="experienc_card">
+                     <div class="experienc_card-face experienc_card-front">
+                        <article><img src="resource/data/imagens/programacao_avatar.png" alt=""></article>
+                        <p>Linguagens</p>
+                     </div>
+                     <div class="experienc_card-face experienc_card-back">
+                        <p>Conhecimento de algumas Linguagens de programação</p>
+                        <hr>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/python.png" alt="">
+                           <p>Python</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/js.png" alt="">
+                           <p>Javascript</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/java.png" alt="">
+                           <p>Java</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-             <div class="experienc">
+            <div class="experienc">
 
-                <article><img src="IMAGENS/css-3.png" alt="" width="100%"></article>
-                <article>CSS</article>
+               <div class="experienc_card-container">
+                  <div class="experienc_card">
+                     <div class="experienc_card-face experienc_card-front">
+                        <article><img src="resource/data/imagens/conhecimento.png" alt=""></article>
+                        <p>Geral</p>
+                     </div>
+                     <div class="experienc_card-face experienc_card-back">
+                        <p>Conceitos e Experiencias</p>
+                        <hr>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/prioridade.png" alt="">
+                           <p>Métodos ágeis</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/microsoft.png" alt="">
+                           <p>Pacote office</p>
+                        </div>
+                        <div class="tecnologias_conhecidas_por_mim">
+                           <img src="resource/data/imagens/ciber-seguranca.png" alt="">
+                           <p>Cibersegurança</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-             </div>  
 
-             <div class="experienc">
+         </div>
 
-                <article><img src="IMAGENS/html-5.png" alt="" width="100%"></article>
-                <article>HTML</article>
+      </section>
 
-             </div>  
-               
-
-          </div>
-
-        </section>
-
-        <section class="boxTree" id="boxTree">
+      <section class="boxTree" id="boxTree">
 
          <div class="tittle">
 
             <h1>Contato</h1>
-             <p>Onde me encontrar?</p>
- 
-           </div>
+            <p>Onde me encontrar?</p>
 
-           <div class="Conteiner">
+         </div>
 
-              <div class="containerOne">
-      
-                  <div class="ImgPerfil">
-                    <h4 style="padding: 20px;">Guto</h4>
+         <div class="Conteiner">
+
+            <div class="containerOne">
+
+               <div class="ImgPerfil">
+                  <h4 style="padding: 20px;color: black;">Guto</h4>
+               </div>
+
+               <div class="info">
+
+                  <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img
+                        src="resource/data/imagens/mala-de-viagem.png" alt="">QA & Developer</div>
+                  <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img
+                        src="resource/data/imagens/telefone.png" alt="">+55 11 91585-8636</div>
+                  <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img
+                        src="resource/data/imagens/o-email.png" alt="">oliveriraguto4@gmail.com</div>
+                  <div style="display: flex; flex-direction: row;gap: 10px;"><img
+                        src="resource/data/imagens/mapas-e-bandeiras.png" alt="">São paulo, Sp</div>
+
+               </div>
+            </div>
+
+            <div class="containerTwo">
+
+               <h1>Entre em contato!! </h1>
+               <p>Deixe aqui sua mensagem e sugestão, ou entre em contato diretamente comigo</p>
+
+               <form action="" id="Form">
+                  <label for="nome">Nome <i id="marcationnome">Preencha este campo*</i></label>
+                  <input type="text" id="name" placeholder="Digite seu Nome">
+
+                  <label for="email">E-mail <i id="marcationemail">Preencha este campo*</i></label>
+                  <input type="email" id="email" placeholder="Digite seu E-mail">
+
+                  <label for="">Mensagem <i id="marcationmensagem">Preencha este campo*</i></label>
+                  <textarea name="" id="mgsSend" cols="30" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+
+                  <div class="btnFormSend">
+                     <input type="button" value="Enviar" onclick="SEND_OF_MSG()">
                   </div>
-      
-                  <div class="info">
-      
-                        <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img src="IMAGENS/mala-de-viagem.png" alt="">System Analyst</div>
-                        <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img src="IMAGENS/telefone.png" alt="">+55 11 91585-8636</div>
-                        <div style="display: flex; flex-direction: row;gap: 10px;margin-bottom: 10px;"><img src="IMAGENS/o-email.png" alt="">oliveriraguto4@gmail.com</div>
-                        <div style="display: flex; flex-direction: row;gap: 10px;"><img src="IMAGENS/mapas-e-bandeiras.png" alt="">São paulo, Sp</div>
-                     
-                  </div>
-              </div>
-      
-              <div class="containerTwo">
+               </form>
 
-                  <h1>Entre em contato!!! </h1>
-                  <p>Deixe aqui sua mensagem e sugestão, ou entre em contato diretamente comigo</p>
-                  
-                  <form action="" id="Form">
-                     <label for="nome">Nome <i id="marcationnome">Preencha este campo*</i></label>
-                     <input type="text" id="name" placeholder="Digite seu Nome">
-                  
-                     <label for="email">E-mail <i id="marcationemail">Preencha este campo*</i></label>
-                     <input type="email" id="email" placeholder="Digite seu E-mail">
-                  
-                     <label for="">Mensagem <i id="marcationmensagem">Preencha este campo*</i></label>
-                     <textarea name="" id="mgsSend" cols="30" rows="5" placeholder="Deixe aqui sua mensagem" ></textarea>
-                  
-                     <div class="btnFormSend">
-                        <input type="button" value="Contatos" onclick="CONTACT()">
-                        <input type="button" value="Enviar" onclick="SEND_OF_MSG()">
+               <div class="SendFeeback" id="SendFeeback">
+                  <button onclick="SEND_OF_MSG_back()">Enviar outra mensagem
+                  </button>
+                  <img src="IMAGENS/feedback-do-cliente.png" alt="">
+                  <div class="loader">
+                     <div class="scanner">
+                        <span>Obrigado!!!</span>
                      </div>
-                  </form>
-
-                  <div class="SendFeeback" id="SendFeeback">
-                     <button onclick="SEND_OF_MSG_back()">Enviar outra mensagem                     
-                     </button>
-                      <img src="IMAGENS/feedback-do-cliente.png" alt="">
-                      <div class="loader">
-                        <div class="scanner">
-                          <span>Obrigado!!!</span>
-                        </div>
-                      </div>
-                  </div> 
-
-                  <div class="infomation" id="infomation">
-                      
-                        <h3>Informações</h3>
-
-                         <div style="display: flex; flex-direction: column;margin-top: 10px;">
-
-                           <p>Whatsapp: <strong style="color: rgb(10, 217, 10);">+55 (11) 91585-8636</strong></p>
-                           <p>Github: <strong style="color: rgb(255, 255, 255);"> Guts-01</strong></p>
-                           <p>Linkedin:<strong style="color: rgb(0, 102, 255);"> Guto Oliveira</strong></p>
-                           <p>Email: <strong style="color: rgb(180, 214, 9);"> oliveriraguto4@gmail.com</strong></p>
-                           <p>Instagram: <strong style="color: rgb(217, 10, 203);"> @gu_noob17</strong></p>
-                           <p>Telefone: <strong style="color: rgb(7, 255, 201);"> 11 91585-8636</strong></p>
-                           
-                           
-                        </div>
-                        <button onclick="CONTACT_back()">Voltar</button>
-
-                        <!-- <div class="spinnerContainer">
-                           <div class="spinner"></div>
-                           <div class="loader">
-                             <p>Saiba sobre:</p>
-                             <div class="words">
-                               <span class="word"><a href="">eu</a></span>
-                               <span class="word">images</span>
-                               <span class="word">followers</span>
-                               <span class="word">hashtags</span>
-                               <span class="word"><a href="">eu</a></span>
-                             </div>
-                           </div>
-                         </div> -->
                   </div>
-               
-              </div>
+               </div>
 
-           </div>
+            </div>
+
+         </div>
 
 
-        </section>
+      </section>
 
-        <section class="boxFor" id="boxFor">
+      <section class="boxFor" id="boxFor">
 
          <div class="tittle">
-
             <h1>Projetos</h1>
-             <p>Em construção.......</p>
+            <p>Alguns projetos feitos por mim!</p>
+         </div>
 
-             <div class="projeto">
-               <img src="IMAGENS/trabalho-em-progresso.png" alt="">
-             </div>
+            <div class="projetos">
 
-             
- 
-           </div>
+            <div class="projeto_box">
+
+               <div class="projeto_img_video">
+
+               </div>
+
+               <div class="descricao">
+
+                  <div class="descricao_do_projeto_text">
+                     <h3>Projeto 1</h3>
+                     <p>Descrição do projeto</p><br>
+                  </div>
+   
+                  <div class="btn_projeto">
+                     <a href="" class="btn_github_code"><img src="resource/data/imagens/github.png" alt="">Github</a>
+                     <a href="" class="btn_site_projeto">Site</a>
+                  </div>
+
+               </div>
+
+
+            </div>
+
+            <div class="projeto_box">
+
+               <div class="projeto_img_video">
+
+               </div>
+
+               <div class="descricao">
+
+                  <div class="descricao_do_projeto_text">
+                     <h3>Projeto 2</h3>
+                     <p>Descrição do projeto</p>
+                  </div>
+   
+                  <div class="btn_projeto">
+                     <a href="" class="btn_github_code"><img src="resource/data/imagens/github.png" alt="">Github</a>
+                     <a href="" class="btn_site_projeto">Site</a>
+                  </div>
+
+               </div>
+
+            </div>
+            <div class="projeto_box">
+
+               <div class="projeto_img_video">
+
+               </div>
+
+               <div class="descricao">
+
+                  <div class="descricao_do_projeto_text">
+                     <h3>Projeto 3</h3>
+                     <p>Descrição do projeto</p>
+                  </div>
+   
+                  <div class="btn_projeto">
+                     <a href="" class="btn_github_code"><img src="resource/data/imagens/github.png" alt="">Github</a>
+                     <a href="" class="btn_site_projeto">Site</a>
+                  </div>
+
+               </div>
+
+            </div>
+            <div class="projeto_box">
+
+               <div class="projeto_img_video">
+
+               </div>
+
+               <div class="descricao">
+
+                  <div class="descricao_do_projeto_text">
+                     <h3>Projeto 4</h3>
+                     <p>Descrição do projeto</p>
+                  </div>
+   
+                  <div class="btn_projeto">
+                     <a href="" class="btn_github_code"><img src="resource/data/imagens/github.png" alt="">Github</a>
+                     <a href="" class="btn_site_projeto">Site</a>
+                  </div>
+
+               </div>
+
+            </div>
+
+            </div>
          
-        </section>
-    </main>
 
-    <footer>
-        <div class="autor">
-    <h3>Desenvolvido por:</h3>
-    <p>Guto Oliveira</p>
-        </div>
-    </footer>
- <script src="JAVASCRIPT/script.js"></script>
+      </section>
+   </main>
+
+   <footer>
+      <div class="autor">
+         <h3>Desenvolvido por:</h3>
+         <p>Guto Oliveira</p>
+      </div>
+   </footer>
+   <script src="resource/screens/scripts/script.js"></script>
 </body>
+
 </html>
